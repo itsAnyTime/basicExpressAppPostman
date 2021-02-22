@@ -10,8 +10,9 @@ installed nodemon: npm i -g nodemon  // -g global  //  vermeidet jedesmal neusta
 npm install body-parser
 
 18.2.
-# Basic solution for “Basic Express App” assignment:
-## app.js
+“Basic Express App”:
+app.js
+```
 const express = require('express');
 const app = express();
 // set body parser middlware
@@ -41,9 +42,12 @@ app.get('/test', (req, res) => {
 app.listen(3000, () => {
     console.log('App listening on port 3000!');
 });
+```
 
 
-## index.html
+
+index.html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,3 +66,4 @@ app.listen(3000, () => {
     </form>
 </body>
 </html>
+```
